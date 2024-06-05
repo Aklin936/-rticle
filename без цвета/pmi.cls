@@ -53,8 +53,6 @@
 
 \renewenvironment{proof}{\noindent\textbf{\proofname.}}{}
 
-\usepackage{lmodern}
-
 \renewcommand{\@oddfoot}{\hfil\footnotesize{\thepage}\hfil}
 \renewcommand{\Large}{\fontsize{18pt}{21pt}\selectfont}
 \renewcommand{\large}{\fontsize{16pt}{18.6pt}\selectfont}
