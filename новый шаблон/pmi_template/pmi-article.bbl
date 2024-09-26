@@ -1,0 +1,154 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{bib1}
+\selectlanguageifdefined{english}
+\BibEmph{Campbell~S.~L., Gear~C.~W.} The index of general nonlinear
+  {D}{A}{E}{S}~// \BibEmph{Numer. {M}ath.} ---
+\newblock 1995. ---
+\newblock Vol.~72, no.~2. ---
+\newblock Pp.~173--196.
+
+\bibitem{bib3}
+\selectlanguageifdefined{english}
+\BibEmph{Hamburger~C.} Quasimonotonicity, regularity and duality for nonlinear
+  systems of partial differential equations~// \BibEmph{Ann. Mat. Pura. Appl.}
+  ---
+\newblock 1995. ---
+\newblock Vol. 169, no.~2. ---
+\newblock Pp.~321--354.
+
+\bibitem{bib4}
+\selectlanguageifdefined{english}
+\BibEmph{Geddes~K.~O., Czapor~S.~R., Labahn~G.} Algorithms for {C}omputer
+  {A}lgebra. ---
+\newblock Boston: Kluwer, 1992.
+
+\bibitem{bib5}
+\selectlanguageifdefined{english}
+\BibEmph{Broy~M.} Software engineering---from auxiliary to key technologies~//
+  Software Pioneers~/ Ed. by M.~Broy, E.~Denert. ---
+\newblock New {Y}ork: Springer, 1992. ---
+\newblock Pp.~10--13.
+
+\bibitem{bib6}
+\selectlanguageifdefined{english}
+Conductive {P}olymers~/ Ed. by R.~S.~Seymour. ---
+\newblock New {Y}ork: Plenum, 1981.
+
+\bibitem{bib7}
+\selectlanguageifdefined{english}
+\BibEmph{Smith~S.~E.} Neuromuscular blocking drugs in man~// Neuromuscular
+  junction. {H}andbook of experimental pharmacology~/ Ed. by E.~Zaimis. ---
+\newblock Vol.~42. ---
+\newblock Heidelberg: Springer, 1976. ---
+\newblock Pp.~593--660.
+
+\bibitem{bib8}
+\selectlanguageifdefined{english}
+\BibEmph{Chung~S.~T., Morris~R.~L.} Isolation and characterization of plasmid
+  deoxyribonucleic acid from Streptomyces fradiae. ---
+\newblock 1978. ---
+\newblock Paper presented at the 3rd international symposium on the genetics of
+  industrial microorganisms, University of {W}isconsin, {M}adison, 4--9 June
+  1978.
+
+\bibitem{bib9}
+\selectlanguageifdefined{english}
+\BibEmph{Hao~Z., AghaKouchak~A., Nakhjiri~N., Farahmand~A.} Global integrated
+  drought monitoring and prediction system (GIDMaPS) data sets. ---
+\newblock 2014. ---
+\newblock figshare \url{https://doi.org/10.6084/m9.figshare.853801}.
+
+\bibitem{bib10}
+\selectlanguageifdefined{english}
+\BibEmph{Babichev~S.~A., Ries~J., Lvovsky~A.~I.} Quantum scissors:
+  teleportation of single-mode optical states by means of a nonlocal single
+  photon. ---
+\newblock 2002. ---
+\newblock Preprint at \url{https://arxiv.org/abs/quant-ph/0208066v1}.
+
+\bibitem{bib11}
+\selectlanguageifdefined{english}
+\BibEmph{Beneke~M., Buchalla~G., Dunietz~I.} Mixing induced {CP} asymmetries in
+  inclusive {B} decays~// \BibEmph{Phys. {L}ett.} ---
+\newblock 1997. ---
+\newblock Vol. B393. ---
+\newblock Pp.~132--142.
+
+\bibitem{bib13}
+\selectlanguageifdefined{english}
+\BibEmph{Abbott~T. M.~C. et~al.} {Dark Energy Survey Year 1 Results:
+  Constraints on Extended Cosmological Models from Galaxy Clustering and Weak
+  Lensing}~// \BibEmph{Phys. Rev. D}. ---
+\newblock 2019. ---
+\newblock Vol.~99, no.~12. ---
+\newblock P.~123505.
+
+\bibitem{bibru01}
+\selectlanguageifdefined{russian}
+\BibEmph{Данилов~Б.~Р.} Асимптотическое оценки
+  функции Шеннона в одной модели глубины
+  схем из функциональных элементов с
+  емкостными параметрами выходов
+  элементов~// Труды X международной
+  конференции <<Дискретные модели в теории
+  управляющих систем>> (Москва и
+  Подмосковье, 23--25~мая 2018\,г.).~/ М.: МАКС Пресс,
+  2018. ---
+\newblock 2018. ---
+\newblock {С.}~112--113.
+
+\bibitem{bibru02}
+\selectlanguageifdefined{russian}
+\BibEmph{Данилов~Б.~Р.} О поведении функции
+  Шеннона для задержки схем в модели, где
+  задержка соединений определяется типами
+  соединяемых элементов~// \BibEmph{Известия
+  высших учебных заведений. Поволжский
+  регион. Физико"=математические науки.} ---
+\newblock 2014. ---
+\newblock Т.~3, {№}~31. ---
+\newblock {С.}~78--100.
+
+\bibitem{bibru03}
+\selectlanguageifdefined{russian}
+\BibEmph{Лупанов~О.~Б.} О схемах функциональных
+  элементов с задержками~// \BibEmph{Проблемы
+  кибернетики}. ---
+\newblock 1970. ---
+\newblock Т.~23. ---
+\newblock {С.}~43--82.
+
+\bibitem{bibru04}
+\selectlanguageifdefined{russian}
+\BibEmph{Ложкин~С.~А., Данилов~Б.~Р.} О задержке
+  схем из функциональных элементов в модели
+  с произвольным распределением задержек
+  элементов базиса по входам~//
+  \BibEmph{Прикладная математика и
+  информатика}. ---
+\newblock 2011. ---
+\newblock {№}~39. ---
+\newblock {С.}~107--129.
+
+\bibitem{bibru05}
+\selectlanguageifdefined{russian}
+\BibEmph{Яблонский~С.~В.} Введение в дискретную
+  математику: Учеб. пособие для вузов / Под
+  ред. В. А.\;Садовничего. 4-е изд., стер. ---
+\newblock М.: Высш шк., 2003.
+
+\bibitem{bibru06}
+\selectlanguageifdefined{russian}
+\BibEmph{Ложкин~С.~А.} Основы кибернетики. ---
+\newblock М.: Издательский отдел ф-та ВМиК МГУ,
+  2004.
+
+\end{thebibliography}

@@ -6,47 +6,44 @@ The style file: utf8gost71u.bst
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: pmi-bibliography.bib
-Warning--empty journal in litlink:belo
-Warning--empty journal in litlink:burger
-You've used 5 entries,
+You've used 17 entries,
             3126 wiz_defined-function locations,
-            752 strings with 7230 characters,
-and the built_in function-call counts, 1672 in all, are:
-= -- 214
-> -- 25
-< -- 8
-+ -- 10
-- -- 5
-* -- 85
-:= -- 182
-add.period$ -- 21
-call.type$ -- 5
+            834 strings with 9273 characters,
+and the built_in function-call counts, 5888 in all, are:
+= -- 782
+> -- 143
+< -- 24
++ -- 50
+- -- 33
+* -- 291
+:= -- 634
+add.period$ -- 71
+call.type$ -- 17
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 89
-empty$ -- 162
-format.name$ -- 5
-if$ -- 431
+cite$ -- 17
+duplicate$ -- 292
+empty$ -- 572
+format.name$ -- 33
+if$ -- 1562
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 17
 missing$ -- 0
-newline$ -- 41
-num.names$ -- 15
-pop$ -- 32
+newline$ -- 116
+num.names$ -- 45
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 57
+skip$ -- 200
 stack$ -- 0
-substring$ -- 89
-swap$ -- 66
-text.length$ -- 3
+substring$ -- 275
+swap$ -- 225
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 15
-width$ -- 6
-write$ -- 91
-(There were 2 warnings)
+warning$ -- 0
+while$ -- 46
+width$ -- 19
+write$ -- 303
