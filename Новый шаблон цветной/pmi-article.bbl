@@ -1,0 +1,56 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{litlink:belo}
+\selectlanguageifdefined{russian}
+\BibEmph{Белолипецкий~В.М.~Пискажова~Т.В.}
+  Математическое моделирование процесса
+  электролитического получения алюминия.
+  Решение задач управления технологией:
+  монография. ---
+\newblock 2012. ---
+\newblock {С.}~13--58.
+
+\bibitem{litlink:burger}
+\selectlanguageifdefined{english}
+\BibEmph{Burger~M.~Schlake~B.~Wolfram~M.-T.} Poisson–Nernst–Planck
+  equations for ion flux through confined geometries~// IOP Publishing Ltd \&
+  London Mathematical Society Nonlinearity. ---
+\newblock 2012. ---
+\newblock Vol.~25, no.~4. ---
+\newblock Pp.~961--991.
+
+\bibitem{litlink:damaskin}
+\selectlanguageifdefined{russian}
+\BibEmph{Дамаскин~Б.Б.~Петрий~О.А.~Цирлина~Г.А.}
+  Электрохимия: Учебник для вузов~// \BibEmph{М.:
+  Химия}. ---
+\newblock 2001. ---
+\newblock {С.}~624.
+
+\bibitem{litlink:derkach2}
+\selectlanguageifdefined{russian}
+\BibEmph{Деркач~А~С.} Влияние нестабильности
+  тока серии на технологический режим
+  алюминиевых электролизеров~//
+  \BibEmph{Цветные металлы.} ---
+\newblock 1967. ---
+\newblock {№}~3. ---
+\newblock {С.}~39--40.
+
+\bibitem{litlink:kalmykov}
+\selectlanguageifdefined{russian}
+\BibEmph{А.В.~Калмыков}. Математическое
+  моделирование влияния процессов
+  тепломассопереноса на МГД-стабильность
+  алюминиевого электролизёра~//
+  \BibEmph{Диссертация.} ---
+\newblock 2017.
+
+\end{thebibliography}
