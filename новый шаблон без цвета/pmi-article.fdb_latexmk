@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex pmi-article"] 1727507067.74987 "pmi-article.aux" "pmi-article.bbl" "pmi-article" 1727507104.03945 0
+["bibtex pmi-article"] 1727507597.04431 "pmi-article.aux" "pmi-article.bbl" "pmi-article" 1727507604.85512 0
   "./pmi-bibliography.bib" 1727361010 3149 a1b4e66767c2d80b0a5157253bdaa3a4 ""
   "./utf8gost71u.bst" 1725002678 30568 3bfa9814b94110d5511e2e415a8bda8d ""
-  "pmi-article.aux" 1727507104 9908 b783f175d17ac59082185da05ccf9782 "pdflatex"
+  "pmi-article.aux" 1727507604 9942 3c01328ce2b3d0a0644d98ea9b18ab7a "pdflatex"
   (generated)
   "pmi-article.bbl"
   "pmi-article.blg"
   (rewritten before read)
-["pdflatex"] 1727507096.72564 "e:/F/VMK/9sem/specsem/-rticle/новый шаблон без цвета/pmi-article.tex" "pmi-article.pdf" "pmi-article" 1727507104.03995 0
+["pdflatex"] 1727507597.45378 "e:/F/VMK/9sem/specsem/-rticle/новый шаблон без цвета/pmi-article.tex" "pmi-article.pdf" "pmi-article" 1727507604.85558 0
   "C:/Users/Нил/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727286594 133334 1fd5f192fc21182ee96bea4ce9294005 ""
   "C:/Users/Нил/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi558/labx1728.pk" 1727286620 41304 b1e9b56c06940a1418decba76d931754 ""
   "C:/Users/Нил/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi558/larm1728.pk" 1727286634 36612 536b7d196ae74825645f27d237a526cc ""
@@ -171,14 +171,14 @@
   "D:/programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "D:/programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "crxy_art.png" 1727289112 251183 5ea2003e921616496d2d5051fdf8ac8a ""
-  "e:/F/VMK/9sem/specsem/-rticle/новый шаблон без цвета/pmi-article.tex" 1727507098 43180 e461493b80ac3479b52138dd3f6e5b46 ""
+  "e:/F/VMK/9sem/specsem/-rticle/новый шаблон без цвета/pmi-article.tex" 1727507582 42384 ac4ba6670b901ade0f9f294539362774 ""
   "h.png" 1727289112 32424 89090eb8dbec01d56d2936ba3f422564 ""
   "heatmapxz_art.png" 1727289112 60032 3360a4aedbc5122ac50537146e80833a ""
   "heatmapyz_art.png" 1727289112 51112 76d7de7952e958bd75c7ca466d035eed ""
-  "pmi-article.aux" 1727507104 9908 b783f175d17ac59082185da05ccf9782 "pdflatex"
-  "pmi-article.bbl" 1727507070 2224 179b0d1df9a85a4f69ee32813f0a7e58 "bibtex pmi-article"
-  "pmi-article.out" 1727507104 1296 972fa55a40b44f6df8e9dee0f0bc1cdf "pdflatex"
-  "pmi-article.tex" 1727507098 43180 e461493b80ac3479b52138dd3f6e5b46 ""
+  "pmi-article.aux" 1727507604 9942 3c01328ce2b3d0a0644d98ea9b18ab7a "pdflatex"
+  "pmi-article.bbl" 1727507598 2508 1f4719ff6987c02b9d29f89a882e1637 "bibtex pmi-article"
+  "pmi-article.out" 1727507604 1296 972fa55a40b44f6df8e9dee0f0bc1cdf "pdflatex"
+  "pmi-article.tex" 1727507582 42384 ac4ba6670b901ade0f9f294539362774 ""
   "pmi-jnl.cls" 1725002678 53853 61bc2ae0dd87f2682ef89c3db445c3df ""
   "triangul.png" 1727289112 39259 3509c81f089189c5db342dcd17f013cd ""
   "veloxy_art.png" 1727289112 146769 67dd60140cecb5acc95327074d16311e ""

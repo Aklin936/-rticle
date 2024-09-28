@@ -34,15 +34,13 @@
 \newblock 2001. ---
 \newblock {С.}~624.
 
-\bibitem{litlink:derkach2}
+\bibitem{litlink:VAMI}
 \selectlanguageifdefined{russian}
-\BibEmph{Деркач~А~С.} Влияние нестабильности
-  тока серии на технологический режим
-  алюминиевых электролизеров~//
-  \BibEmph{Цветные металлы.} ---
-\newblock 1967. ---
-\newblock {№}~3. ---
-\newblock {С.}~39--40.
+\BibEmph{Громова~Б~С.} Тепловые процессы в
+  электролизерах и миксерах алюминиевого
+  производства. ---
+\newblock 1998. ---
+\newblock {С.}~322.
 
 \bibitem{litlink:kalmykov}
 \selectlanguageifdefined{russian}
@@ -52,5 +50,15 @@
   алюминиевого электролизёра~//
   \BibEmph{Диссертация.} ---
 \newblock 2017.
+
+\bibitem{litlink:derkach2}
+\selectlanguageifdefined{russian}
+\BibEmph{Деркач~А~С.} Влияние нестабильности
+  тока серии на технологический режим
+  алюминиевых электролизеров~//
+  \BibEmph{Цветные металлы.} ---
+\newblock 1967. ---
+\newblock {№}~3. ---
+\newblock {С.}~39--40.
 
 \end{thebibliography}
