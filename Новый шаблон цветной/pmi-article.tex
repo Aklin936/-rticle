@@ -67,7 +67,15 @@
 \raggedbottom
 %%\unnumbered% uncomment this for unnumbered level heads
 
+
 \begin{document}
+
+% uncomment articlesection for the first article in section
+\articlesection{Математическое моделирование}
+\udk{519.673;?}
+
+% set correct first page number of the article
+\setcounter{page}{3}
 
 \author*[1]{\fnm{Савенкова} \sur{Н. П.}}\email{mknandrew@mail.ru}
 \author*[1]{\fnm{Мокин} \sur{А. Ю.}}\email{mknandrew@mail.ru}
@@ -99,14 +107,14 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{схема взаимодействия.png}
+    \includegraphics[width=\textwidth]{схема взаимодействия.png}
     \caption{Взаимосвязь динамических процессов.}
     \label{fig:vliyanie1}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{блоксхема.png}
+    \includegraphics[width=\textwidth]{блоксхема.png}
     \caption{ Блок-схема вычислительного комплекса.}
     \label{fig:vliyanie2}
 \end{figure}
@@ -170,14 +178,14 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=100mm]{veloxy_art.png}
+    \includegraphics[width=\textwidth]{veloxy_art.png}
     \caption{Векторное поле скоростей в плоскости XY.}
     \label{fig:veloxy} 
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=100mm]{crxy_art.png}
+    \includegraphics[width=\textwidth]{crxy_art.png}
     \caption{Распределение значений криолитового отношения в плоскости XY.}
     \label{fig:crxy} 
 \end{figure}
@@ -188,14 +196,14 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=110mm]{veloxz_art.png}
+    \includegraphics[width=\textwidth]{veloxz_art.png}
     \caption{Векторное поле скоростей в плоскости XZ.}
     \label{fig:veloxz} 
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=90mm]{heatmapxz_art.png}
+    \includegraphics[width=\textwidth]{heatmapxz_art.png}
     \caption{Распределение значений криолитового отношения в плоскости XZ.}
     \label{fig:crxz} 
 \end{figure}
@@ -210,14 +218,14 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=110mm]{veloyz_art.png}
+    \includegraphics[width=\textwidth]{veloyz_art.png}
     \caption{Векторное поле скоростей в плоскости XZ.}
     \label{fig:veloyz} 
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=90mm]{heatmapyz_art.png}
+    \includegraphics[width=\textwidth]{heatmapyz_art.png}
     \caption{Распределение значений криолитового отношения в плоскости XZ.}
     \label{fig:cryz} 
 \end{figure}
@@ -276,7 +284,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{спокойная поверхность.png}
+    \includegraphics[width=\textwidth]{спокойная поверхность.png}
     \caption{Поверхность раздела сред металл-электролит при МГД-стабильной работе ванны в моменты времени $t_1$(а) и $t_2$(б).}
     \label{fig:stab} 
 \end{figure}
@@ -285,7 +293,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{Выемка анодов поверхность.png}
+    \includegraphics[width=\textwidth]{Выемка анодов поверхность.png}
     \caption{Поверхность раздела сред металл-электролит при при выемке анодов.}
     \label{fig:viemkaanod} 
 \end{figure}
@@ -294,7 +302,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{Анодный эффект поверхность.png}
+    \includegraphics[width=\textwidth]{Анодный эффект поверхность.png}
     \caption{Поверхность раздела сред металл-электролит при анодном эффекте.}
     \label{fig:anodeffect}
 \end{figure}
@@ -337,7 +345,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{triangul.png}
+    \includegraphics[width=\textwidth]{triangul.png}
     \caption{Триангуляция расчетной области.}
     \label{fig:triangles} 
 \end{figure}
@@ -384,21 +392,21 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{h.png}
+    \includegraphics[width=\textwidth]{h.png}
     \caption{Распределение потерь по току для МГД-стабильного режима работы.}
     \label{fig:stabrasp}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{выемка анодов.png}
+    \includegraphics[width=\textwidth]{выемка анодов.png}
     \caption{Распределение потерь по току для выемки 11 и 22 анодов.}
     \label{fig:viemkaanodrasp} 
 \end{figure}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=150mm]{анодный эффект.png}
+    \includegraphics[width=\textwidth]{анодный эффект.png}
     \caption{Распределение потерь по току для анодного эффекта.}
     \label{fig:anodeffectrasp} 
 \end{figure}

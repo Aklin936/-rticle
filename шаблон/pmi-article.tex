@@ -1,0 +1,517 @@
+% Version 1
+% 23 July 2024
+% 
+% Данный шаблон подготовлен для сборника Прикладная математика и информатика, выпускаемого факультетом ВМК МГУ
+% 
+% This template is prepared for Prikladnaya Matematika i Informatika journal. The template is compatible with Computational Mathematics and Modeling journal template.
+% 
+% Prepared by Dmitry Sorokin (dsorokin@cs.msu.ru) 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%=======================================================%%
+%% to print line numbers in the margin use lineno option %%
+%%=======================================================%%
+%%======================================================%%
+%% to compile with pdflatex/xelatex use pdflatex option %%
+%%======================================================%%
+
+\documentclass[pdflatex,sn-mathphys-gost]{pmi-jnl}
+% \documentclass[pdflatex,sn-mathphys-num]{sn-jnl}
+
+%%%% Standard Packages
+%%<additional latex packages if required can be included here>
+
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{anyfontsize}
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+\usepackage{subcaption}%
+\renewcommand\thesubfigure{\asbuk{subfigure}}
+%%%%
+
+
+%%======================================================%%
+%% theorems
+\newtheorem{theorem}{Теорема}%  meant for continuous numbers
+%%\newtheorem{theorem}{Теорема}[section]% meant for sectionwise numbers
+%% optional argument [theorem] produces theorem numbering sequence instead of independent numbers for Proposition
+\newtheorem{proposition}[theorem]{Утверждение}% 
+%%\newtheorem{proposition}{Утверждение}% to get separate numbers for theorem and proposition etc.
+\newtheorem{example}{Пример}%
+\newtheorem{remark}{Замечание}%
+\newtheorem{definition}{Определение}%
+
+\raggedbottom
+%%\unnumbered% uncomment this for unnumbered level heads
+
+\begin{document}
+
+% uncomment articlesection for the first article in section
+\articlesection{Обработка изображений}
+\udk{512;511.823}
+% set correct first page number of the article
+\setcounter{page}{3}
+
+
+%%=============================================================%%
+%% GivenName	-> \fnm{Joergen W.}
+%% Particle	-> \spfx{van der} -> surname prefix
+%% FamilyName	-> \sur{Ploeg}
+%% Suffix	-> \sfx{IV}
+%% \author*[1,2]{\fnm{Joergen W.} \spfx{van der} \sur{Ploeg} 
+%%  \sfx{IV}}\email{iauthor@gmail.com}
+%%=============================================================%%
+
+\author*[1,2]{\fnm{Фамилия1} \sur{И. О.}}\email{iauthor@gmail.com}
+
+\author[2,3]{\fnm{Фамилия2} \sur{И. О.}}\email{iiauthor@gmail.com}
+
+\author[1,2]{\fnm{Фамилия3} \sur{И. О.}}\email{iiiauthor@gmail.com}
+
+\affil*[1]{\orgdiv{Подразделение}, \orgname{Организация}, \orgaddress{\street{Улица}, \city{Город}, \postcode{100190}, \state{Регион}, \country{Страна}}}
+
+\affil[2]{\orgdiv{Подразделение}, \orgname{Организация}, \orgaddress{\street{Улица}, \city{Город}, \postcode{100190}, \state{Регион}, \country{Страна}}}
+
+\affil[3]{\orgdiv{Подразделение}, \orgname{Организация}, \orgaddress{\street{Улица}, \city{Город}, \postcode{100190}, \state{Регион}, \country{Страна}}}
+
+\title[Название статьи]{Название статьи}
+
+\abstract{Аннотация служит как общим введением в тему, так и кратким нетехническим изложением основных результатов и выводов. Аннотация не должна включать подзаголовки, уравнения и цитаты. Рекомендуемая длина аннотации не более 200 слов.}
+
+\keywords{Ключевое слово 1, Ключевое слово 2, Ключевое слово 3, Ключевое слово 4.}
+
+
+\received{01.01.2024}
+\revised{02.02.2024}
+\accepted{03.03.2024}
+
+
+\maketitle
+
+\section{Введение}\label{sec1}
+
+Раздел «Введение» содержит обзор литературы для предметной области темы статьи. Допускается некоторое дублирование с аннотацией. Введение не должно включать подзаголовки. Пример ссылки на литературу \cite{bib1} (см. подробности в разделе ~\ref{subsec7}).
+
+Редакция не устанавливает строгий стандартный формат. При подготовке текста также имейте в виду, что цветное оформление текста и рисунков не поддерживаются в печатной версии статьи, при печати они будут автоматически переведены в градации серого.
+
+\section{Методы}\label{sec2}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста.
+
+\section{Это пример заголовка первого уровня — заголовка раздела.}\label{sec3}
+
+\subsection{Это пример заголовка второго уровня — заголовка подраздела.}\label{subsec2}
+
+\subsubsection{
+Это пример заголовка третьего уровня — заголовка подподраздела.}\label{subsubsec2}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. 
+
+\section{Уравнения}\label{sec4}
+
+Формулы в \LaTeX\ могут быть либо встроенными в текст, либо самостоятельными формулами. Для встроенных формул используйте команды \verb+$...$+. Например: Уравнение
+$H\psi = E \psi$ написано с помощью команды \verb+$H \psi = E \psi$+.
+
+Для самостоятельных уравнений (с автоматически сгенерированными номерами) можно использовать команды \verb+equation+ или \verb+align+
+:
+\begin{equation}
+\|\tilde{X}(k)\|^2 \leq\frac{\sum\limits_{i=1}^{p}\left\|\tilde{Y}_i(k)\right\|^2+\sum\limits_{j=1}^{q}\left\|\tilde{Z}_j(k)\right\|^2 }{p+q}.\label{eq1}
+\end{equation}
+где,
+\begin{align}
+D_\mu &=  \partial_\mu - ig \frac{\lambda^a}{2} A^a_\mu \nonumber \\
+F^a_{\mu\nu} &= \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + g f^{abc} A^b_\mu A^a_\nu \label{eq2}
+\end{align}
+Обратите внимание на использование \verb+\nonumber+ в конце строки каждой строки \verb+align+, кроме последней, чтобы не создавать номера формул там, где они не требуются. Команду \verb+\label{}+
+следует использовать только в последней строке команды \verb+\align+, где \verb+\nonumber+ не используется.
+\begin{equation}
+Y_\infty = \left( \frac{m}{\textrm{GeV}} \right)^{-3}
+    \left[ 1 + \frac{3 \ln(m/\textrm{GeV})}{15}
+    + \frac{\ln(c_2/5)}{15} \right]
+\end{equation}
+Файл класса данной статьи поддерживает использование команд \verb+\mathbb{}+, \verb+\mathscr{}+ и
+\verb+\mathcal{}+. Например, \verb+\mathbb{R}+, \verb+\mathscr{R}+
+и \verb+\mathcal{R}+ отображается как $\mathbb{R}$, $\mathscr{R}$ и $\mathcal{R}$, соответственно (подробности в подподсекции ~\ref{subsubsec2}).
+
+\section{Таблицы}\label{sec5}
+
+Таблицы можно вставлять через команды \verb+table+ или \verb+tabular+.
+Чтобы поместить сноски внутри таблицы необходимо использовать команду \verb+\footnotetext[]{...}+.
+Сноска появляется прямо под таблице (смотри Таблицы~\ref{tab1} и \ref{tab2}). 
+Для установки значка сноски используйте команду \verb+\footnotemark[...]+
+
+\begin{table}[h]
+\caption{Caption text}\label{tab1}%
+\begin{tabular}{@{}llll@{}}
+\toprule
+Столбец 1 & Столбец 2  & Столбец 3 & Столбец 4\\
+\midrule
+строка 1    & данные 1   & данные 2  & данные 3  \\
+строка 2    & данные 4   & данные 5\footnotemark[1]  & данные 6  \\
+строка 3    & данные 7   & данные 8  & данные 9\footnotemark[2]  \\
+\botrule
+\end{tabular}
+\footnotetext{Источник: Это пример сноски к таблице. Это пример сноски к таблице.}
+\footnotetext[1]{Пример первой сноски к таблице. Это пример сноски к таблице.}
+\footnotetext[2]{Пример второй сноски к таблице. Это пример сноски к таблице.}
+\end{table}
+
+\noindent
+Исходный код для приведенной выше таблицы следующий:
+
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+\bigskip
+\begin{verbatim}
+\begin{table}[<placement-specifier>]
+\caption{<table-caption>}\label{<table-label>}%
+\begin{tabular}{@{}llll@{}}
+\toprule
+Столбец 1 & Столбец 2  & Столбец 3 & Столбец 4\\
+\midrule
+строка 1    & данные 1   & данные 2  & данные 3  \\
+строка 2    & данные 4   & данные 5\footnotemark[1] 
+& данные 6  \\
+строка 3    & данные 7   & данные 8  
+& данные 9\footnotemark[2]\\
+\botrule
+\end{tabular}
+\footnotetext{Источник: Это пример сноски к таблице.
+Это пример сноски к таблице.}
+\footnotetext[1]{Пример первой сноски к таблице.
+Это пример сноски к таблице.}
+\footnotetext[2]{Пример второй сноски к таблице.
+Это пример сноски к таблице.}
+\end{table}
+\end{verbatim}
+\bigskip
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+
+\begin{table}[h]
+\caption{Пример длинной таблицы с полной шириной текста}\label{tab2}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccccc}
+\toprule%
+& \multicolumn{3}{@{}c@{}}{Элемент 1\footnotemark[1]} & \multicolumn{3}{@{}c@{}}{Элемент 2\footnotemark[2]} \\\cmidrule{2-4}\cmidrule{5-7}%
+Проект & Энергия & $\sigma_{calc}$ & $\sigma_{expt}$ & Энергия & $\sigma_{calc}$ & $\sigma_{expt}$ \\
+\midrule
+Элемент 3  & 990 A & 1168 & $1547\pm12$ & 780 A & 1166 & $1239\pm100$\\
+Элемент 4  & 500 A & 961  & $922\pm10$  & 900 A & 1268 & $1092\pm40$\\
+\botrule
+\end{tabular*}
+\footnotetext{Примечание. Это пример сноски к таблице. Это пример сноски к таблице. Это пример сноски к таблице. Это пример сноски к таблице. Это пример сноски к таблице.}
+\footnotetext[1]{Пример первой сноски к таблице.}
+\footnotetext[2]{Пример второй сноски к таблице.}
+\end{table}
+
+Длинные таблицы, не умещающиеся по ширине текста, следует вставлять как повернутые в альбомную ориентацию. Для этого нужно использовать команды \verb+\begin{sidewaystable}+ \verb+...+ \verb+\end{sidewaystable}+ вместо \verb+\begin{table*}+ \verb+...+ \verb+\end{table*}+ (смотри Таблицу~\ref{tab3}).
+
+\begin{sidewaystable}[tbp]
+\caption{Cлишком длинные таблицы, должны быть вставлены с помощью команды "sidewaystable", как показано здесь.}\label{tab3}
+\begin{tabular*}{\textheight}{@{\extracolsep\fill}lcccccc}
+\toprule%
+& \multicolumn{3}{@{}c@{}}{Элемент 1\footnotemark[1]}& \multicolumn{3}{@{}c@{}}{Элемент\footnotemark[2]} \\\cmidrule{2-4}\cmidrule{5-7}%
+Снаряд & Энергия	& $\sigma_{calc}$ & $\sigma_{expt}$ & Энергия & $\sigma_{calc}$ & $\sigma_{expt}$ \\
+\midrule
+Элемент 3 & 990 A & 1168 & $1547\pm12$ & 780 A & 1166 & $1239\pm100$ \\
+Элемент 4 & 500 A & 961  & $922\pm10$  & 900 A & 1268 & $1092\pm40$ \\
+Элемент 5 & 990 A & 1168 & $1547\pm12$ & 780 A & 1166 & $1239\pm100$ \\
+Элемент 6 & 500 A & 961  & $922\pm10$  & 900 A & 1268 & $1092\pm40$ \\
+\botrule
+\end{tabular*}
+\footnotetext{Примечание. Это пример сноски к таблице. Это пример сноски к таблице. Это пример сноски к таблице. Это пример сноски к таблице. Это пример сноски к таблице.}
+\footnotetext[1]{Это пример сноски к таблице.}
+\end{sidewaystable}
+
+\section{Рисунки}\label{sec6}
+
+В соответствии со стандартами \LaTeX\ необходимо использовать изображения в формате \verb+eps+ для компиляции с помощью \LaTeX\ и изображения в формате \verb+pdf/jpg/png+ для компиляции с помощью \verb+PDFLaTeX+. Это одно из основных различий между \LaTeX\ и \verb+PDFLaTeX+. Каждое изображение должно быть из одного входного файла изображения \verb+.eps+. Избегайте использования вложенных рисунков (subfigures). Также, \textbf{запрещается использовать кириллицу в рисунках}. Команду вставки изображений для \LaTeX\ и \verb+PDFLaTeX+ можно обобщить. Пакет, используемый для вставки изображений в \verb+LaTeX/PDFLaTeX+, — это пакет graphicx. Рисунки можно вставлять с помощью команд, показанных в примере ниже:
+
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+\bigskip
+\begin{verbatim}
+\begin{figure}[<placement-specifier>]
+\centering
+\includegraphics{<eps-file>}
+\caption{<figure-caption>}\label{<figure-label>}
+\end{figure}
+\end{verbatim}
+\bigskip
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.9\textwidth]{fig.eps}
+\caption{Это широкий рисунок. Это пример длинной подписи, это пример длинной подписи, это пример длинной подписи, это пример длинной подписи.}\label{fig1}
+\end{figure}
+
+В данном примере мы указали ширину рисунка в опциональном параметре \verb+\includegraphics+. Если он отсутствует, рисунок будет растянут на ширину текста (см. Рис.~\ref{fig1}).
+
+На Рис.~\ref{fig2} показан пример составного рисунка из нескольких иллюстраций. При необходимости, можно ссылаться отдельно на Рис.~\ref{fig2a} и Рис.~\ref{fig2b}.
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{0.49\textwidth}
+    \includegraphics[width=0.99\linewidth]{fig.eps}
+    \caption{Подпись к рисунку А.}
+    \label{fig2a}
+\end{subfigure}
+\begin{subfigure}{0.49\textwidth}
+    \includegraphics[width=0.99\linewidth]{fig.png}
+    \caption{Подпись к рисунку Б.}
+    \label{fig2b}
+\end{subfigure}
+\caption{Это пример составного рисунка (а) и (б).}
+\label{fig2}
+\end{figure}
+
+\section{Алгоритмы, программный код и листинги программ}\label{sec7}
+
+Пакеты \verb+algorithm+, \verb+algorithmicx+ and \verb+algpseudocode+ используются для форматирования алгоритмов в \LaTeX\ в следующем формате:
+
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+\bigskip
+\begin{verbatim}
+\begin{algorithm}
+\caption{<alg-caption>}\label{<alg-label>}
+\begin{algorithmic}[1]
+. . .
+\end{algorithmic}
+\end{algorithm}
+\end{verbatim}
+\bigskip
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+
+Подробности применения данных пакетов изложены в оффициальной документации к ним. Для более тонкой настройки, пожалуйста, ознакомьтесь перед использованием с инструкцией к пакету \verb+algorithm+. Для программного кода необходимо подключение пакета ``verbatim'', а соответствующие команды выглядят так: \verb+\begin{verbatim}+ \verb+...+ \verb+\end{verbatim}+. 
+
+Аналогично, для листингов программ, используйте пакет \verb+listings+. Команды \verb+\begin{lstlisting}+ \verb+...+ \verb+\end{lstlisting}+ используются аналогично командам \verb+verbatim+. Подробности применения изложены в документации к пакету \verb+lstlisting+.
+
+Процедура возведения в степень:
+
+\lstset{texcl=true,basicstyle=\small\sf,commentstyle=\small\rm,mathescape=true,escapeinside={(*}{*)}}
+\begin{lstlisting}
+begin
+  for $i:=1$ to $10$ step $1$ do
+      expt($2,i$);  
+      newline() od        (*\textrm{Comments will be set flush to the right margin}*)
+where
+proc expt($x,n$) $\equiv$
+  $z:=1$;
+  do if $n=0$ then exit fi;
+     do if odd($n$) then exit fi;                 
+        comment: (*\textrm{This is a comment statement;}*)
+        $n:=n/2$; $x:=x*x$ od;
+     { $n>0$ };
+     $n:=n-1$; $z:=z*x$ od;
+  print($z$). 
+end
+\end{lstlisting}
+
+\begin{algorithm}
+\floatname{algorithm}{Алгоритм}
+\caption{Вычисление $y = x^n$}\label{algo1}
+\begin{algorithmic}[1]
+\Require $n \geq 0 \vee x \neq 0$
+\Ensure $y = x^n$ 
+\State $y \Leftarrow 1$
+\If{$n < 0$}\label{algln2}
+        \State $X \Leftarrow 1 / x$
+        \State $N \Leftarrow -n$
+\Else
+        \State $X \Leftarrow x$
+        \State $N \Leftarrow n$
+\EndIf
+\While{$N \neq 0$}
+        \If{$N$ is even}
+            \State $X \Leftarrow X \times X$
+            \State $N \Leftarrow N / 2$
+        \Else[$N$ is odd]
+            \State $y \Leftarrow y \times X$
+            \State $N \Leftarrow N - 1$
+        \EndIf
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+
+%%=============================================%%
+%% For presentation purpose, we have included  %%
+%% \bigskip command. Please ignore this.       %%
+%%=============================================%%
+\bigskip
+\begin{minipage}{\hsize}%
+\lstset{frame=single,framexleftmargin=-1pt,framexrightmargin=-17pt,framesep=12pt,linewidth=0.98\textwidth,language=pascal}% Set your language (you can change the language for each code-block optionally)
+%%% Start your code-block
+\begin{lstlisting}
+for i:=maxint to 0 do
+begin
+{ do nothing }
+end;
+Write('Case insensitive ');
+Write('Pascal keywords.');
+\end{lstlisting}
+\end{minipage}
+
+\section{Перекрестные ссылки}\label{sec8}
+
+Такие команды, как \verb+figure+, \verb+table+, \verb+equation+ and \verb+align+ могут иметь тэг (внутренее название, переменную), который обозначается командой \verb+\label{#label}+ внутри исходной команды. Для рисунков и таблиц используйте команду \verb+\label{#label}+ сразу после \verb+\caption{}+. Можно использовать тэг, обозначенный с помощью команды \verb+\ref{#label}+, для ссылки на данную таблицу, рисунок или формулу в тексте. В качестве примера рассмотрим тэг, определенный для Рисунка~\ref{fig1}: \verb+\label{fig1}+. Для ссылки на него, используйте команду \verb+Рис.~\ref{fig1}+, что отображается в тексте как ``Рис.~\ref{fig1}''. 
+
+Сослаться на номер строки в алгоритме (например, строка 2 Алгоритма~\ref{algo1}) можно следующим образом: \verb+\label{algln2}+. Это отображается в тексте, как строка~\ref{algln2} Алгоритма~\ref{algo1}.
+
+\subsection{Подробности о цитировании ссылок}\label{subsec7}
+
+Для ссылок на литературу используется пакет \verb+bibtex+. Для того, чтобы ссылаться на различные источники, необходимо поместить в файл \verb+sn-bibliography.bib+ в формате \verb+.bib+. Ссылки будут автоматически отформатированны по ГОСТ и пронумерованы по порядку появления в тексте. Пример использования команды \verb+\cite{...}+: \cite{bib1}.
+
+Все цитируемые ссылки напечатаны в конце этой статьи: \cite{bib3}, \cite{bib4}, \cite{bib5}, \cite{bib6}, \cite{bib7}, \cite{bib8}, \cite{bib9}, \cite{bib10}, \cite{bib11}, и \cite{bib13}.
+
+Примеры цитат на русскоязычные источники: \cite{bibru01}, \cite{bibru02}, \cite{bibru03}, \cite{bibru04}, \cite{bibru05}, и \cite{bibru06}.
+
+
+\section{Примеры теорем}\label{sec10}
+
+Для оформления теорем, лемм и прочих утверждений, необходимо использовать пакет \verb+amsthm+. 
+
+Теоремы могут быть вставлены, как показано ниже:
+
+\begin{theorem}[Подзаголовок теоремы]\label{thm1}
+Пример текста теоремы. Пример текста теоремы. Пример текста теоремы. Пример текста теоремы. Пример текста теоремы.
+Пример текста теоремы. Пример текста теоремы. Пример текста теоремы. Пример текста теоремы. Пример текста теоремы.
+Пример текста теоремы.
+\end{theorem}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста.
+
+Кроме того, доступна предопределенная команда для доказательства: \verb+\begin{proof}+ \verb+...+ \verb+\end{proof}+. При этом заголовок «Доказательство» печатается курсивом, а «основной текст» римским шрифтом с открытым квадратом в конце каждого доказательства.
+
+\begin{proof}
+Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. Пример текста доказательства. 
+\end{proof}
+
+Утверждения, примеры, замечания и определения оформляются, как показано ниже:
+
+\begin{proposition}
+Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. Пример текста утверждения. 
+\end{proposition}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста.
+
+\begin{example}
+Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. Пример текста примера. 
+\end{example}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста.
+
+\begin{remark}
+Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. Пример текста замечания. 
+\end{remark}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста.
+
+\begin{definition}[Подзаголовок определения]
+Пример текста определения. Пример текста определения. Пример текста определения. Пример текста определения. Пример текста определения. Пример текста определения. Пример текста определения. Пример текста определения. 
+\end{definition}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста.
+
+Для цитирования чужого текста, используйте команды \verb+\begin{quote}...\end{quote}+
+\begin{quote}
+Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. Пример цитируемого текста. 
+\end{quote}
+
+Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста (см. Рис.~\ref{fig1}). Пример основного текста. Пример основного текста. Пример основного текста. Пример основного текста (см. Таблицу~\ref{tab3}).
+
+\section{Результаты и обсуждение}\label{sec12}
+
+В данном разделе приводятся результаты статьи, а также их обсуждение.
+Результаты приводятся в форме текста, таблиц и рисунков. Необходимо прокомментировать каждый рисунок или таблицу в тексте, сославшись на нее. Обсуждения результатов должны быть краткими, объективными и емкими.
+
+\section{Заключение}\label{sec13}
+
+Заключение может использоваться для повторения вашей гипотезы или вопроса исследования, повторения ваших основных выводов, объяснения актуальности и дополнительной ценности вашей работы, описания любых ограничений вашего исследования, описания будущих направлений исследований и рекомендаций читателю.
+
+\backmatter
+
+% \bmhead{Дополнительная информация}
+
+% Если к вашей статье прилагаются дополнительные файлы, укажите это здесь.
+
+\section*{Авторские декларации}
+
+\subsection*{Финансирование}
+
+Указываются ссылки на гранты и прочие источники финансирования.
+Например:
+
+Работа выполнена при частичной поддержке РФФИ
+(проект \hbox{№~18-01-00800-а}) и госбюджетной темы НИР №~5.4 ВМК МГУ.
+
+\subsection*{Доступность данных и программного кода}
+
+В данном разделе приводятся ссылки на исходный код и программные реализации алгоритмов, описанных в статье, а также ссылки на наборы данных, либо указывается "Недоступны".
+
+\subsection*{Конфликт интересов}
+
+В данном разделе указывается конфликт инетресов, при его наличии, либо слово "Отсутствует."
+
+\subsection*{Вклад авторов}
+
+В данном разделе указывается вклад каждого автора в данной статье. Например:
+
+И. О. Фамилия1 -- численные эксперименты, написание текста статьи.
+
+И. О. Фамилия2 -- разработка математических методов, написание текста статьи.
+
+\begin{appendices}
+
+\section{Название раздела первого приложения}\label{secA1}
+
+Приложение содержит дополнительную информацию, которая не является существенной частью самого текста, но может быть полезна для более полного понимания проблемы исследования или представляет собой информацию, которая слишком громоздка для включения в основную часть статьи.
+
+
+\end{appendices}
+
+
+\bibliography{pmi-bibliography}% common bib file
+%% if required, the content of .bbl file can be included here once bbl is generated
+%%\input pmi-article.bbl
+
+
+\end{document}
